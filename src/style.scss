@@ -936,7 +936,7 @@ header{
     margin-bottom: 190px;
     
 
-    .warpper{
+    .wrapper{
         display:flex;
         align-items: center;
         width: 1170px;
@@ -947,6 +947,7 @@ header{
         display: flex;
         flex-direction: column;
         margin: 45px;
+        max-width: 325px;
         .tabs__title{
             font-size: 52px;
             line-height: 60px;
@@ -969,7 +970,8 @@ header{
             justify-content: space-between;
             padding: 24px 0px 23px 14px;
             position: relative;
-            
+            margin-right: 0;
+            padding-right: 3px;
             cursor: pointer;
     
             .label-svg{
@@ -991,13 +993,16 @@ header{
                 }
             }
         }
+        .tab:nth-child(1){
+            border-bottom: 1px solid #EEEEEE;
+        }
         .tab:nth-child(3){
             border-bottom: 1px solid #EEEEEE;
         }
         .tab:nth-child(4){
             border-bottom: 1px solid #EEEEEE;
         }
-        .tab:nth-child(5){
+        .tab:nth-child(2){
             border-bottom: 1px solid #EEEEEE;
         }
     
@@ -1152,6 +1157,114 @@ header{
     #four:checked ~ .tabs #four-tab{
         z-index: 5;
         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
+    }
+
+    @media screen and (max-width: 1330px){
+        .panels{
+            .panel{
+                .panel-info{
+                    right: -20px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 992px){
+        .wrapper{
+            flex-direction: column;
+
+            
+        }
+        .panels{
+            .panel{
+                .panel-info{
+                    top: 43%;
+                }
+            }
+        }
+
+        .tabs{
+            flex-direction: column;
+            max-width: 95%;
+            .tabs__title{
+                margin-bottom: 40px;
+                text-align: center;
+            }
+            .tabs__subtitle{
+                margin-bottom: 0;
+                align-self: center;
+                position: relative;
+                text-align: center;
+            }
+            .labels-container{
+                display: grid;
+                grid-template-areas: "a a";
+
+                .tab{
+                    padding-right: 10px;
+                }
+            }
+        }
+        .tab:nth-child(6){
+            border-bottom: 1px solid #EEEEEE;
+        }
+    }
+
+    @media screen and (max-width: 769px){
+        .panels{
+
+            .panel{
+
+                iframe{
+                    max-width: 100%;
+                }
+                .panel-info{
+                    top: unset;
+                    bottom: -150px;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-areas: 'a a';
+                    max-width: 100%;
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                    &__title{
+                        margin-right: 20px;
+                    }
+                    &__subtitle{
+                        position: relative;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 512px){
+        .tabs{
+
+            .labels-container{
+                grid-template-areas: 'a';
+                margin: 0 auto;
+            }
+        }
+    }
+    @media screen and (max-width: 404px){
+        .panels{
+
+            .panel{
+
+                .panel-info{
+                    align-items: center;
+                    grid-template-areas: 'a'
+                    'a';
+                    &__schedule{
+                        max-width: 50%;
+                    }
+                }
+            }
+        }
     }
     
     
