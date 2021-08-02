@@ -592,11 +592,11 @@ header .container .row .menu .mobile-nav_btn:hover {
     outline-width: 0;
   }
   .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
-    top: 43%;
+    top: 37%;
     max-width: 93%;
-    -webkit-transform: translate(0%, -50%);
-        -ms-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    -webkit-transform: translate(3%, -50%);
+        -ms-transform: translate(3%, -50%);
+            transform: translate(3%, -50%);
   }
 }
 
@@ -606,7 +606,7 @@ header .container .row .menu .mobile-nav_btn:hover {
   }
   .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
     position: absolute;
-    top: -1500px;
+    top: -1570px;
     left: -50%;
     margin: 0 auto;
     width: 510%;
@@ -614,9 +614,23 @@ header .container .row .menu .mobile-nav_btn:hover {
     border-width: 0;
     outline-width: 0;
   }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
+    top: 43%;
+  }
   .banner .carousel .carousel-inner .carousel-item .carousel-item__info h1 {
     font-size: 40px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
+    padding-top: 200%;
+  }
+  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
+    position: absolute;
+    top: -1500px;
+    left: -50%;
   }
 }
 
@@ -633,66 +647,6 @@ header .container .row .menu .mobile-nav_btn:hover {
     height: 500%;
     border-width: 0;
     outline-width: 0;
-  }
-}
-
-@media screen and (max-height: 780px) and (max-width: 578px) {
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 260%;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
-    position: absolute;
-    top: -3600px;
-    left: -50%;
-    margin: 0 auto;
-    width: 600%;
-    height: 600%;
-    border-width: 0;
-    outline-width: 0;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
-    top: 25%;
-    -webkit-transform: translate(2%, -50%);
-        -ms-transform: translate(2%, -50%);
-            transform: translate(2%, -50%);
-  }
-}
-
-@media screen and (max-height: 780px) and (max-width: 470px) {
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 300%;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
-    position: absolute;
-    top: -3450px;
-    left: -50%;
-    margin: 0 auto;
-    width: 600%;
-    height: 600%;
-    border-width: 0;
-    outline-width: 0;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
-    top: 30%;
-  }
-}
-
-@media screen and (max-height: 780px) and (max-width: 400px) {
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper {
-    padding-top: 350%;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__wrapper iframe {
-    position: absolute;
-    top: -3750px;
-    left: -50%;
-    margin: 0 auto;
-    width: 630%;
-    height: 630%;
-    border-width: 0;
-    outline-width: 0;
-  }
-  .banner .carousel .carousel-inner .carousel-item .carousel-item__info {
-    top: 30%;
   }
 }
 
@@ -1321,7 +1275,7 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 .contacts .panels .panel .panel-info__mail .panel_title img {
   margin-right: 14px;
-  width: 22px;
+  width: 23px;
   height: 18px;
 }
 
@@ -1463,13 +1417,14 @@ header .container .row .menu .mobile-nav_btn:hover {
   }
 }
 
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 424px) {
   .contacts .panels .panel .panel-info {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
         grid-template-areas: 'a' 'a';
+    padding-left: 20px;
   }
   .contacts .panels .panel .panel-info__schedule {
     max-width: 50%;

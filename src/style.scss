@@ -515,9 +515,9 @@ header{
                         }
                     }
                     .carousel-item__info{
-                        top: 43%;
+                        top: 37%;
                         max-width: 93%;
-                        transform: translate(0%, -50%);
+                        transform: translate(3%, -50%);
                     }
                 }
                 @media screen and (max-width: 450px){
@@ -526,7 +526,7 @@ header{
                         
                         iframe{
                             position: absolute;
-                            top: -1500px;
+                            top: -1570px;
                             left: -50%;
                             margin: 0 auto;
                             width: 510%;
@@ -537,10 +537,21 @@ header{
                         }
                     }
                     .carousel-item__info{
-                        
+                        top: 43%;
                         h1{
                             font-size: 40px;
                             margin-bottom: 0;
+                        }
+                    }
+                }
+                @media screen and (max-width: 360px){
+                    .carousel-item__wrapper{
+                        padding-top: 200%;
+                        
+                        iframe{
+                            position: absolute;
+                            top: -1500px;
+                            left: -50%;
                         }
                     }
                 }
@@ -560,64 +571,7 @@ header{
                         }
                     }
 
-                    @media screen and (max-width: 578px){
-                        .carousel-item__wrapper{
-                            padding-top: 260%;
-                            iframe{
-                                position: absolute;
-                                top: -3600px;
-                                left: -50%;
-                                margin: 0 auto;
-                                width: 600%;
-                                height: 600%;
-                                border-width: 0;
-                                outline-width: 0;
-                                
-                            }
-                        }
-                        .carousel-item__info{
-                            top: 25%;
-                            transform: translate(2%, -50%);
-                        }
-                    }
-                    @media screen and (max-width: 470px){
-                        .carousel-item__wrapper{
-                            padding-top: 300%;
-                            iframe{
-                                position: absolute;
-                                top: -3450px;
-                                left: -50%;
-                                margin: 0 auto;
-                                width: 600%;
-                                height: 600%;
-                                border-width: 0;
-                                outline-width: 0;
-                                
-                            }
-                        }
-                        .carousel-item__info{
-                            top: 30%;
-                        }
-                    }
-                    @media screen and (max-width: 400px){
-                        .carousel-item__wrapper{
-                            padding-top: 350%;
-                            iframe{
-                                position: absolute;
-                                top: -3750px;
-                                left: -50%;
-                                margin: 0 auto;
-                                width: 630%;
-                                height: 630%;
-                                border-width: 0;
-                                outline-width: 0;
-                                
-                            }
-                        }
-                        .carousel-item__info{
-                            top: 30%;
-                        }
-                    }
+                    
                 }
 
                 
@@ -1110,7 +1064,7 @@ header{
                         align-items: center;
                         img{
                             margin-right: 14px;
-                            width: 22px;
+                            width: 23px;
                             height: 18px;
                         }
                         p{
@@ -1250,7 +1204,7 @@ header{
             }
         }
     }
-    @media screen and (max-width: 404px){
+    @media screen and (max-width: 424px){
         .panels{
 
             .panel{
@@ -1259,6 +1213,7 @@ header{
                     align-items: center;
                     grid-template-areas: 'a'
                     'a';
+                    padding-left: 20px;
                     &__schedule{
                         max-width: 50%;
                     }
