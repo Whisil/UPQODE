@@ -841,7 +841,6 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 .services-section {
   padding-top: 100px;
-  margin-bottom: 200px;
 }
 
 .services-section .container {
@@ -1083,7 +1082,294 @@ header .container .row .menu .mobile-nav_btn:hover {
 }
 
 .contacts {
-  min-width: 1000px;
+  padding-top: 202px;
+  margin-bottom: 190px;
+}
+
+.contacts .warpper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contacts .tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 45px;
+}
+
+.contacts .tabs .tabs__title {
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #00A031;
+  margin-bottom: 12px;
+}
+
+.contacts .tabs .tabs__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #6c6c6c;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.contacts .tabs .tab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  max-width: 270px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 0px 23px 14px;
+  position: relative;
+  cursor: pointer;
+}
+
+.contacts .tabs .tab .label-svg {
+  margin-right: 20px;
+}
+
+.contacts .tabs .tab .label-info h4 {
+  color: #00A031;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contacts .tabs .tab .label-info p {
+  color: #6c6c6c;
+  font-weight: 400;
+}
+
+.contacts .tabs .tab:nth-child(3) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.contacts .tabs .tab:nth-child(4) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.contacts .tabs .tab:nth-child(5) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.contacts .panels {
+  background: #fff;
+  min-height: 200px;
+  max-width: unset;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  overflow: hidden;
+}
+
+.contacts .panels .panel {
+  display: none;
+  -webkit-animation: fadein .8s;
+          animation: fadein .8s;
+}
+
+.contacts .panels .panel .panel-info {
+  padding: 27px 60px 46px 60px;
+  -webkit-box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.0758039);
+          box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.0758039);
+  max-width: 320px;
+  position: absolute;
+  right: -95px;
+  top: 136px;
+  background-color: #fff;
+}
+
+.contacts .panels .panel .panel-info__title {
+  font-size: 38px;
+  line-height: 51px;
+  font-weight: 800;
+  color: #00A031;
+  letter-spacing: 0.4px;
+  color: #1c201e;
+}
+
+.contacts .panels .panel .panel-info__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #6c6c6c;
+  margin-bottom: 30px;
+}
+
+.contacts .panels .panel .panel-info__schedule {
+  margin-bottom: 21px;
+}
+
+.contacts .panels .panel .panel-info__schedule .panel_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3px;
+}
+
+.contacts .panels .panel .panel-info__schedule .panel_title img {
+  margin-right: 14px;
+  width: 20px;
+  height: 22px;
+}
+
+.contacts .panels .panel .panel-info__schedule .panel_title p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #1c201e;
+}
+
+.contacts .panels .panel .panel-info__schedule .schedule_info {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+.contacts .panels .panel .panel-info__schedule .schedule_info span {
+  color: #1c201e;
+}
+
+.contacts .panels .panel .panel-info__office {
+  margin-bottom: 21px;
+}
+
+.contacts .panels .panel .panel-info__office .panel_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3px;
+}
+
+.contacts .panels .panel .panel-info__office .panel_title img {
+  margin-right: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.contacts .panels .panel .panel-info__office .panel_title p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #1c201e;
+}
+
+.contacts .panels .panel .panel-info__office .office_info {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+.contacts .panels .panel .panel-info__mail .panel_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3px;
+}
+
+.contacts .panels .panel .panel-info__mail .panel_title img {
+  margin-right: 14px;
+  width: 22px;
+  height: 18px;
+}
+
+.contacts .panels .panel .panel-info__mail .panel_title p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #1c201e;
+}
+
+.contacts .panels .panel .panel-info__mail .mail_info {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contacts .radio {
+  display: none;
+}
+
+.contacts #one:checked ~ .panels #one-panel,
+.contacts #two:checked ~ .panels #two-panel,
+.contacts #three:checked ~ .panels #three-panel,
+.contacts #four:checked ~ .panels #four-panel {
+  display: block;
+}
+
+.contacts #one:checked ~ .tabs #one-tab,
+.contacts #two:checked ~ .tabs #two-tab,
+.contacts #three:checked ~ .tabs #three-tab,
+.contacts #four:checked ~ .tabs #four-tab {
+  z-index: 5;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
+          box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
 }
 
 footer {
