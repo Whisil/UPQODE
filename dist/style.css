@@ -1062,6 +1062,11 @@ header .container .row .menu .mobile-nav_btn:hover {
           flex-direction: column;
   margin: 45px;
   max-width: 325px;
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+  transition: -webkit-box-shadow .2s ease-in-out;
+  -o-transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
 }
 
 .contacts .tabs .tabs__title {
@@ -1327,6 +1332,11 @@ header .container .row .menu .mobile-nav_btn:hover {
   z-index: 5;
   -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
           box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
+  -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+  transition: -webkit-box-shadow .2s ease-in-out;
+  -o-transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
 }
 
 @media screen and (max-width: 1330px) {

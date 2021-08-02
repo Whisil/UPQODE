@@ -884,6 +884,7 @@ header{
         flex-direction: column;
         margin: 45px;
         max-width: 325px;
+        transition: box-shadow .2s ease-in-out;
         .tabs__title{
             font-size: 52px;
             line-height: 60px;
@@ -1093,6 +1094,7 @@ header{
     #four:checked ~ .tabs #four-tab{
         z-index: 5;
         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.0758039);
+        transition: box-shadow .2s ease-in-out;
     }
 
     @media screen and (max-width: 1330px){
