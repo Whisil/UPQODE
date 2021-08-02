@@ -683,10 +683,6 @@ header .container .row .menu .mobile-nav_btn:hover {
 
 .banner .carousel .carousel-indicators .active::after {
   content: "";
-  opacity: 1;
-  -webkit-transition: opacity .2s ease-in-out;
-  -o-transition: opacity .2s ease-in-out;
-  transition: opacity .2s ease-in-out;
   display: block;
   width: 21px;
   height: 21px;

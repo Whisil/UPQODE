@@ -427,22 +427,6 @@ header{
                             
                         }
                     }
-                    // @media screen and (max-height: 1024px){
-                    //     .carousel-item__wrapper{
-                    //         padding-top: 100%;
-                    //         iframe{
-                    //             position: absolute;
-                    //             top: 0px;
-                    //             left: 0;
-                    //             margin: 0 auto;
-                    //             width: 100%;
-                    //             height: 100%;
-                    //             border-width: 0;
-                    //             outline-width: 0;
-                                
-                    //         }
-                    //     }
-                    // }
                 }
                 @media screen and (max-width: 824px){
                     .carousel-item__wrapper{
@@ -603,8 +587,6 @@ header{
                 transition: background-color .2s ease-in-out;
                 &::after{
                     content: "";
-                    opacity: 1;
-                    transition: opacity .2s ease-in-out; 
                     display: block;
                     width: 21px;
                     height: 21px;
